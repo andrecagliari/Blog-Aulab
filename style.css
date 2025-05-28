@@ -1,0 +1,50 @@
+*{
+  font-family: "Montserrat", sans-serif;
+}
+
+nav{
+  background-color: rgba(0, 0, 0, 0.623);
+}
+
+.logoaulab{
+  width: 100px;
+  height: 100px;
+}
+
+.link{
+      text-decoration: none;
+      color: white;
+}
+
+.listlink{
+    list-style-type: none;
+}
+
+header{
+    background-image: url(./media/background.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 20vh;
+}
+
+.linkhome{
+    text-decoration: none;
+    color: white;
+}
+
+.btnarticle{
+    background-color: rgba(0, 0, 0, 0.623);
+    color: white;
+}
+
+.btnarticle:hover{
+    background-color: yellow;
+    color: black;
+}
