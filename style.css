@@ -4,6 +4,9 @@
 
 nav{
   background-color: rgba(0, 0, 0, 0.623);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logoaulab{
@@ -14,10 +17,17 @@ nav{
 .link{
       text-decoration: none;
       color: white;
+      margin-right: 10px;
+}
+
+.link:hover{
+    border-bottom: 2px solid yellow;
+
 }
 
 .listlink{
     list-style-type: none;
+    display: flex;
 }
 
 header{
@@ -25,13 +35,15 @@ header{
     height: 80vh;
     background-size: cover;
     background-position: center;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 h1{
     color: white;
     font-size: 50px;
-    margin-top: 20vh;
 }
 
 .linkhome{
@@ -47,4 +59,28 @@ h1{
 .btnarticle:hover{
     background-color: yellow;
     color: black;
+}
+
+.titlearticle{
+    text-align: center;
+}
+
+.imgarticle{
+    width: 300px;
+}
+
+.containerarticles{
+    display: flex;
+    width: 60%;
+}
+
+aside{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main{
+    display: flex;
 }
